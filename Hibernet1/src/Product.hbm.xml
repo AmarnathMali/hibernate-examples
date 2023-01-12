@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 5.3//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-5.3.dtd">
+
+  <hibernate-mapping>
+  
+  <class name="com.amazon.Product" table ="product_info">
+  <id name="id" column="product_id" > </id>
+  <property name="pname" column="product_name"/>
+  <property name="price"/>
+  
+  </class> 
+  
+  </hibernate-mapping>
